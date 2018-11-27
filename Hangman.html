@@ -1,0 +1,782 @@
+<html>
+<head>
+	<style>
+		#box1{
+			position:absolute;
+			width:100px;
+			height:40px;
+			left:50px;
+			top:50px;
+			border: 1px solid red;
+		}
+
+		#box2{
+			position:absolute;
+			width:100px;
+			height:40px;
+			left:50px;
+			top:150px;
+			border: 1px solid red;
+		}
+
+		#box3{
+			position: absolute;
+
+			left:200px;
+			top: 50px;
+
+		}
+
+		#box5{
+			position: absolute;
+
+			left:232px;
+			top: 129px;
+
+		}
+		#box6{
+			position: absolute;
+
+			left:178px;
+			top: 260px;
+
+		}
+		#box7{
+			position: absolute;
+
+			left:176px;
+			top: 150px;
+
+		}
+		#box8{
+			position: absolute;
+
+			left:250px;
+			top: 270px;
+
+		}
+		#box9{
+			position: absolute;
+
+			left:246px;
+			top: 130px;
+
+		}
+
+		#letter1{
+			position: absolute;
+
+			left: 100px;
+			top: 350px;
+		}
+		#letter2{
+			position: absolute;
+
+			left: 130px;
+			top: 350px;
+		}
+
+		#letter3{
+			position: absolute;
+
+			left: 160px;
+			top: 350px;
+
+		}
+
+		#letter4{
+			position: absolute;
+
+			left: 190px;
+			top: 350px;
+		}
+		#letter5{
+			position: absolute;
+
+			left: 220px;
+			top: 350px;
+		}
+
+		#letter6{
+			position: absolute;
+
+			left: 250px;
+			top: 350px;
+		}
+
+		#alphabet{
+			position: absolute;
+
+			width:400px;
+			height: 50px;
+
+			left:50px;
+			top: 400px;
+		}
+
+		button{
+			width:25px;
+		}
+
+		.hidden{
+			display:none;
+		}
+
+		img{
+			margin-top:12px;
+		}
+
+	</style>
+
+	<script>
+		var count = 0;
+
+		function test(){
+			count = count + 1;
+
+			var placeholder = document.getElementById("counter");
+			placeholder.innerHTML = count;
+		}
+
+		function hide(){
+			document.getElementById("box3").classList.add('hidden');
+		}
+
+		function show(){
+			document.getElementById("box3").classList.remove('hidden');
+		}
+
+		function clickM(){
+			document.getElementById("letter1").innerHTML = "M";
+		}
+
+		function clickR(){
+			document.getElementById("letter3").innerHTML = "R";
+		}
+		function clickE(){
+			document.getElementById("letter2").innerHTML = "E";
+			document.getElementById("letter5").innerHTML = "E";
+
+		}
+		function clickC(){
+			document.getElementById("letter4").innerHTML = "C";
+		}
+		function clickD(){
+			document.getElementById("letter6").innerHTML = "D";
+		}
+		function clickL(){
+			if (count == 0){
+				document.getElementById("box3").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 2){
+				document.getElementById("box7").classList.remove('hidden');
+			}
+			else if (count == 3){
+				document.getElementById("box6").classList.remove('hidden');
+			}
+			else if (count== 4){
+				document.getElementById("box9").classList.remove('hidden');
+			}
+			else if (count == 5){
+				document.getElementById("box8").classList.remove('hidden');
+			}
+count = count + 1;
+
+		}
+		function clickA(){
+			if (count == 0){
+				document.getElementById("box3").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 2){
+				document.getElementById("box7").classList.remove('hidden');
+			}
+			else if (count == 3){
+				document.getElementById("box6").classList.remove('hidden');
+			}
+			else if (count== 4){
+				document.getElementById("box9").classList.remove('hidden');
+			}
+			else if (count == 5){
+				document.getElementById("box8").classList.remove('hidden');
+			}
+			count = count + 1;
+
+		}
+
+		function clickK(){
+			if (count == 0){
+				document.getElementById("box3").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 2){
+				document.getElementById("box7").classList.remove('hidden');
+			}
+			else if (count == 3){
+				document.getElementById("box6").classList.remove('hidden');
+			}
+			else if (count== 4){
+				document.getElementById("box9").classList.remove('hidden');
+			}
+			else if (count == 5){
+				document.getElementById("box8").classList.remove('hidden');
+			}
+			count = count + 1;
+		}
+		function clickB(){
+			if (count == 0){
+				document.getElementById("box3").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 2){
+				document.getElementById("box7").classList.remove('hidden');
+			}
+			else if (count == 3){
+				document.getElementById("box6").classList.remove('hidden');
+			}
+			else if (count== 4){
+				document.getElementById("box9").classList.remove('hidden');
+			}
+			else if (count == 5){
+				document.getElementById("box8").classList.remove('hidden');
+			}
+			count = count + 1;
+		}
+		function clickA(){
+			if (count == 0){
+				document.getElementById("box3").classList.remove('hidden');
+			}
+
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 2){
+				document.getElementById("box7").classList.remove('hidden');
+			}
+			else if (count == 3){
+				document.getElementById("box6").classList.remove('hidden');
+			}
+			else if (count== 4){
+				document.getElementById("box9").classList.remove('hidden');
+			}
+			else if (count == 5){
+				document.getElementById("box8").classList.remove('hidden');
+			}
+			count = count + 1;
+		}
+			function clickF(){
+				if (count == 0){
+					document.getElementById("box3").classList.remove('hidden');
+				}
+				else if (count == 1){
+					document.getElementById("box5").classList.remove('hidden');
+				}
+				else if (count == 1){
+					document.getElementById("box5").classList.remove('hidden');
+				}
+				else if (count == 2){
+					document.getElementById("box7").classList.remove('hidden');
+				}
+				else if (count == 3){
+					document.getElementById("box6").classList.remove('hidden');
+				}
+				else if (count== 4){
+					document.getElementById("box9").classList.remove('hidden');
+				}
+				else if (count == 5){
+					document.getElementById("box8").classList.remove('hidden');
+				}
+				count = count + 1;
+			}
+				function clickG(){
+					if (count == 0){
+						document.getElementById("box3").classList.remove('hidden');
+					}
+					else if (count == 1){
+						document.getElementById("box5").classList.remove('hidden');
+					}
+					else if (count == 1){
+						document.getElementById("box5").classList.remove('hidden');
+					}
+					else if (count == 2){
+						document.getElementById("box7").classList.remove('hidden');
+					}
+					else if (count == 3){
+						document.getElementById("box6").classList.remove('hidden');
+					}
+					else if (count== 4){
+						document.getElementById("box9").classList.remove('hidden');
+					}
+					else if (count == 5){
+						document.getElementById("box8").classList.remove('hidden');
+					}
+					count = count + 1;
+				}
+					function clickH(){
+						if (count == 0){
+							document.getElementById("box3").classList.remove('hidden');
+						}
+						else if (count == 1){
+							document.getElementById("box5").classList.remove('hidden');
+						}
+						else if (count == 1){
+							document.getElementById("box5").classList.remove('hidden');
+						}
+						else if (count == 2){
+							document.getElementById("box7").classList.remove('hidden');
+						}
+						else if (count == 3){
+							document.getElementById("box6").classList.remove('hidden');
+						}
+						else if (count== 4){
+							document.getElementById("box9").classList.remove('hidden');
+						}
+						else if (count == 5){
+							document.getElementById("box8").classList.remove('hidden');
+						}
+						count = count + 1;
+					}
+						function clickI(){
+							if (count == 0){
+								document.getElementById("box3").classList.remove('hidden');
+							}
+							else if (count == 1){
+								document.getElementById("box5").classList.remove('hidden');
+							}
+							else if (count == 1){
+								document.getElementById("box5").classList.remove('hidden');
+							}
+							else if (count == 2){
+								document.getElementById("box7").classList.remove('hidden');
+							}
+							else if (count == 3){
+								document.getElementById("box6").classList.remove('hidden');
+							}
+							else if (count== 4){
+								document.getElementById("box9").classList.remove('hidden');
+							}
+							else if (count == 5){
+								document.getElementById("box8").classList.remove('hidden');
+							}
+							count = count + 1;
+						}
+							function clickJ(){
+								if (count == 0){
+									document.getElementById("box3").classList.remove('hidden');
+								}
+								else if (count == 1){
+									document.getElementById("box5").classList.remove('hidden');
+								}
+								else if (count == 1){
+									document.getElementById("box5").classList.remove('hidden');
+								}
+								else if (count == 2){
+									document.getElementById("box7").classList.remove('hidden');
+								}
+								else if (count == 3){
+									document.getElementById("box6").classList.remove('hidden');
+								}
+								else if (count== 4){
+									document.getElementById("box9").classList.remove('hidden');
+								}
+								else if (count == 5){
+									document.getElementById("box8").classList.remove('hidden');
+								}
+								count = count + 1;
+							}
+								function clickN(){
+									if (count == 0){
+										document.getElementById("box3").classList.remove('hidden');
+									}
+									else if (count == 1){
+										document.getElementById("box5").classList.remove('hidden');
+									}
+									else if (count == 1){
+										document.getElementById("box5").classList.remove('hidden');
+									}
+									else if (count == 2){
+										document.getElementById("box7").classList.remove('hidden');
+									}
+									else if (count == 3){
+										document.getElementById("box6").classList.remove('hidden');
+									}
+									else if (count== 4){
+										document.getElementById("box9").classList.remove('hidden');
+									}
+									else if (count == 5){
+										document.getElementById("box8").classList.remove('hidden');
+									}
+									count = count + 1;
+								}
+									function clickO(){
+										if (count == 0){
+											document.getElementById("box3").classList.remove('hidden');
+										}
+										else if (count == 1){
+											document.getElementById("box5").classList.remove('hidden');
+										}
+										else if (count == 1){
+											document.getElementById("box5").classList.remove('hidden');
+										}
+										else if (count == 2){
+											document.getElementById("box7").classList.remove('hidden');
+										}
+										else if (count == 3){
+											document.getElementById("box6").classList.remove('hidden');
+										}
+										else if (count== 4){
+											document.getElementById("box9").classList.remove('hidden');
+										}
+										else if (count == 5){
+											document.getElementById("box8").classList.remove('hidden');
+										}
+										count = count + 1;
+									}
+										function clickP(){
+											if (count == 0){
+												document.getElementById("box3").classList.remove('hidden');
+											}
+											else if (count == 1){
+												document.getElementById("box5").classList.remove('hidden');
+											}
+											else if (count == 1){
+												document.getElementById("box5").classList.remove('hidden');
+											}
+											else if (count == 2){
+												document.getElementById("box7").classList.remove('hidden');
+											}
+											else if (count == 3){
+												document.getElementById("box6").classList.remove('hidden');
+											}
+											else if (count== 4){
+												document.getElementById("box9").classList.remove('hidden');
+											}
+											else if (count == 5){
+												document.getElementById("box8").classList.remove('hidden');
+											}
+											count = count + 1;
+										}
+											function clickQ(){
+												if (count == 0){
+													document.getElementById("box3").classList.remove('hidden');
+												}
+												else if (count == 1){
+													document.getElementById("box5").classList.remove('hidden');
+												}
+												else if (count == 1){
+													document.getElementById("box5").classList.remove('hidden');
+												}
+												else if (count == 2){
+													document.getElementById("box7").classList.remove('hidden');
+												}
+												else if (count == 3){
+													document.getElementById("box6").classList.remove('hidden');
+												}
+												else if (count== 4){
+													document.getElementById("box9").classList.remove('hidden');
+												}
+												else if (count == 5){
+													document.getElementById("box8").classList.remove('hidden');
+												}
+												count = count + 1;
+											}
+												function clickS(){
+													if (count == 0){
+														document.getElementById("box3").classList.remove('hidden');
+													}
+													else if (count == 1){
+														document.getElementById("box5").classList.remove('hidden');
+													}
+													else if (count == 1){
+														document.getElementById("box5").classList.remove('hidden');
+													}
+													else if (count == 2){
+														document.getElementById("box7").classList.remove('hidden');
+													}
+													else if (count == 3){
+														document.getElementById("box6").classList.remove('hidden');
+													}
+													else if (count== 4){
+														document.getElementById("box9").classList.remove('hidden');
+													}
+													else if (count == 5){
+														document.getElementById("box8").classList.remove('hidden');
+													}
+													count = count + 1;
+												}
+													function clickT(){
+														if (count == 0){
+															document.getElementById("box3").classList.remove('hidden');
+														}
+														else if (count == 1){
+															document.getElementById("box5").classList.remove('hidden');
+														}
+														else if (count == 2){
+															document.getElementById("box7").classList.remove('hidden');
+														}
+														else if (count == 3){
+															document.getElementById("box6").classList.remove('hidden');
+														}
+														else if (count== 4){
+															document.getElementById("box9").classList.remove('hidden');
+														}
+														else if (count == 5){
+															document.getElementById("box8").classList.remove('hidden');
+														}
+														count = count + 1;
+													}
+
+	function clickU(){
+		if (count == 0){
+		document.getElementById("box3").classList.remove('hidden');
+			}
+			else if (count == 1){
+		document.getElementById("box5").classList.remove('hidden');
+		}
+		else if (count == 1){
+			document.getElementById("box5").classList.remove('hidden');
+		}
+		else if (count == 2){
+			document.getElementById("box7").classList.remove('hidden');
+		}
+		else if (count == 3){
+			document.getElementById("box6").classList.remove('hidden');
+		}
+		else if (count== 4){
+			document.getElementById("box9").classList.remove('hidden');
+		}
+		else if (count == 5){
+			document.getElementById("box8").classList.remove('hidden');
+		}
+		count = count + 1;
+		}
+		function clickV(){
+		if (count == 0){
+	document.getElementById("box3").classList.remove('hidden');
+		}
+		else if (count == 1){
+	document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 1){
+				document.getElementById("box5").classList.remove('hidden');
+			}
+			else if (count == 2){
+				document.getElementById("box7").classList.remove('hidden');
+			}
+			else if (count == 3){
+				document.getElementById("box6").classList.remove('hidden');
+			}
+			else if (count== 4){
+				document.getElementById("box9").classList.remove('hidden');
+			}
+			else if (count == 5){
+				document.getElementById("box8").classList.remove('hidden');
+			}
+				count = count + 1;
+				}
+				function clickW(){
+				if (count == 0){
+			document.getElementById("box3").classList.remove('hidden');
+				}
+				else if (count == 1){
+			document.getElementById("box5").classList.remove('hidden');
+					}
+					else if (count == 1){
+						document.getElementById("box5").classList.remove('hidden');
+					}
+					else if (count == 2){
+						document.getElementById("box7").classList.remove('hidden');
+					}
+					else if (count == 3){
+						document.getElementById("box6").classList.remove('hidden');
+					}
+					else if (count== 4){
+						document.getElementById("box9").classList.remove('hidden');
+					}
+					else if (count == 5){
+						document.getElementById("box8").classList.remove('hidden');
+					}
+						count = count + 1;
+						}
+				function clickX(){
+				if (count == 0){
+			document.getElementById("box3").classList.remove('hidden');
+				}
+				else if (count == 1){
+			document.getElementById("box5").classList.remove('hidden');
+					}
+					else if (count == 1){
+						document.getElementById("box5").classList.remove('hidden');
+					}
+					else if (count == 2){
+						document.getElementById("box7").classList.remove('hidden');
+					}
+					else if (count == 3){
+						document.getElementById("box6").classList.remove('hidden');
+					}
+					else if (count== 4){
+						document.getElementById("box9").classList.remove('hidden');
+					}
+					else if (count == 5){
+						document.getElementById("box8").classList.remove('hidden');
+					}
+						count = count + 1;
+						}
+						function clickY(){
+						if (count == 0){
+					document.getElementById("box3").classList.remove('hidden');
+						}
+						else if (count == 1){
+					document.getElementById("box5").classList.remove('hidden');
+							}
+							else if (count == 1){
+								document.getElementById("box5").classList.remove('hidden');
+							}
+							else if (count == 2){
+								document.getElementById("box7").classList.remove('hidden');
+							}
+							else if (count == 3){
+								document.getElementById("box6").classList.remove('hidden');
+							}
+							else if (count== 4){
+								document.getElementById("box9").classList.remove('hidden');
+							}
+							else if (count == 5){
+								document.getElementById("box8").classList.remove('hidden');
+							}
+								count = count + 1;
+								}
+function clickZ(){
+	if (count == 0){
+	document.getElementById("box3").classList.remove('hidden');
+		}
+	else if (count == 1){
+	document.getElementById("box5").classList.remove('hidden');
+		}
+		else if (count == 1){
+			document.getElementById("box5").classList.remove('hidden');
+		}
+		else if (count == 2){
+			document.getElementById("box7").classList.remove('hidden');
+		}
+		else if (count == 3){
+			document.getElementById("box6").classList.remove('hidden');
+		}
+		else if (count== 4){
+			document.getElementById("box9").classList.remove('hidden');
+		}
+		else if (count == 5){
+			document.getElementById("box8").classList.remove('hidden');
+		}
+		count = count + 1;
+
+		}
+
+	</script>
+</head>
+
+
+<body>
+	<div id="letter1">
+		<img src="line.png" width="25px">
+	</div>
+
+
+	<div id="letter2">
+		<img src="line.png" width="25px">
+	</div>
+
+	<div id="letter3">
+		<img src="line.png" width="25px">
+	</div>
+
+	<div id="letter4">
+		<img src="line.png" width="25px">
+	</div>
+
+	<div id="letter5">
+		<img src="line.png" width="25px">
+	</div>
+
+	<div id="letter6">
+		<img src="line.png" width="25px">
+	</div>
+
+	<div id="box3" class ="hidden">
+		<img src="head.png" width="80px">
+	</div>
+
+	<div id="box5" class ="hidden">
+			<img src="spine.png" width="15px">
+	</div>
+	<div id="box6" class ="hidden">
+			<img src="leftleg.png" width="60px">
+	</div>
+
+	<div id="box7" class ="hidden">
+			<img src="left arm.png" width="60px">
+	</div>
+	<div id="box8" class ="hidden">
+			<img src="rightleg.png" width="60px">
+	</div>
+	<div id="box9" class ="hidden">
+			<img src="rightarm.png.png" width="60px">
+	</div>
+
+	<div id="alphabet">
+	<button onclick="clickA()">A</button>
+	<button onclick="clickB()">B</button>
+	<button onclick="clickC()">C</button>
+	<button onclick="clickD()">D</button>
+	<button onclick="clickE()">E</button>
+	<button onclick="clickF()">F</button>
+	<button onclick="clickG()">G</button>
+	<button onclick="clickH()">H</button>
+	<button onclick="clickI()">I</button>
+	<button onclick="clickJ()">J</button>
+	<button onclick="clickK()">K</button>
+	<button onclick="clickL()">L</button>
+	<button onclick="clickM()">M</button>
+	<button onclick="clickN()">N</button>
+	<button onclick="clickO()">O</button>
+	<button onclick="clickP()">P</button>
+	<button onclick="clickQ()">Q</button>
+	<button onclick="clickR()">R</button>
+	<button onclick="clickS()">S</button>
+	<button onclick="clickT()">T</button>
+	<button onclick="clickU()">U</button>
+	<button onclick="clickV()">V</button>
+	<button onclick="clickW()">W</button>
+	<button onclick="clickX()">X</button>
+	<button onclick="clickY()">Y</button>
+	<button onclick="clickZ()">Z</button>
+	</div>
+
+</body>
+
+</html>
+
